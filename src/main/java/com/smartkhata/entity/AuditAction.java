@@ -1,0 +1,16 @@
+package com.smartkhata.entity;
+
+public enum AuditAction {
+
+    LOGIN,
+    LOGOUT,
+    CREATE_CUSTOMER,
+    UPDATE_CUSTOMER,
+    DEACTIVATE_CUSTOMER,
+    CREATE_TRANSACTION,
+    REVERSE_TRANSACTION,
+    CREATE_STAFF,
+    UPDATE_STAFF,
+    DEACTIVATE_STAFF,
+    UPDATE_SHOP
+}
